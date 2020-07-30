@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Registration Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <!-- <link href="styles.css" rel="stylesheet" type="text/css" /> -->
+</head>
+
+<body>
+     
+    <form method="POST" action="/Registration">
+        <h4>Resgistration Form</h4>
+
+        <table>
+            <tr>
+                <td>
+                    Student Name :
+                </td>
+                <td>
+                    <input type="name" placeholder="Full Name" name="name">
+                </td>
+            </tr>
+
+            <tr>
+                    <td>
+                        Email :
+                    </td>
+                    <td>
+                    <input type="email" name="email"  placeholder="Email" > 
+                    </td>
+                </tr>
+            </tr>
+
+            <tr>
+                <td>
+                    Password :
+                </td>
+                <td>
+                    <input type="password" placeholder="Password" name="password">
+                </td>
+            </tr>
+            </tr>
+            <tr>
+                <td>
+                    Gender :
+                </td>
+                <td>
+                    <input type="radio" name="Gender" >Male
+                    <input type="radio" name="Gender" >Female
+                </td>
+               
+            <tr>
+                <td>
+                    Phone no :
+                </td>
+                <td>
+                    <select>
+                        <option>+233</option>
+                        <option>+997</option>
+                        <option>+789</option>
+                        <option>+478</option>
+                        <option>+078</option>
+                        <option>+999</option>
+                    </select>
+                    <input type="phone" placeholder="24549****" name="phone">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <input type="submit" value="Submit" name="">
+                </td>
+            </tr>
+        </table>
+
+        <!-- <h2>Resgistration Form</h2>
+        <input types="email" name="email" placeholder="enter your email" />
+        <input types="password" name="password" placeholder="enter your password" />
+        <input type = "submit" value="Login" /> -->
+    </form>
+
+    <!-- CSS  -->
+    <style>
+        body{
+            /* border-style: solid; */
+            font-weight: bold;
+            font-size: 15px;
+            margin-left: 190px;
+            margin-right: 500px;
+            padding-left: 90px;
+            padding-bottom: 30px;
+        }
+
+        form{
+            background-color: orangered;
+            color: white;
+            padding-left: 20px;
+            
+
+        }
+        h4{
+            margin-left: 90px;
+            margin-top: 30px;
+            font-size: 20px;
+            color: rgb(145, 255, 0);
+        }
+    </style>
+</body>
+
+</html>
